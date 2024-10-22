@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Application Demo</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link to Google Fonts or a custom font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+    <header>
+        <h1>Web Application Demonstration</h1>
+        <nav>
+            <ul>
+                <li><a href="#text-formatting">Text Formatting</a></li>
+                <li><a href="#multimedia">Multimedia Elements</a></li>
+                <li><a href="#navigation">Navigation</a></li>
+                <li><a href="#form-controls">Form Controls</a></li>
+                <li><a href="#typography">Typography</a></li>
+                <li><a href="#tables">Tables</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="text-formatting">
+            <h2>Text Formatting</h2>
+            <p><strong>Bold Text</strong></p>
+            <p><em>Italic Text</em></p>
+            <p><mark>Highlighted Text</mark></p>
+            <p><small>Small Text</small></p>
+            <p><del>Deleted Text</del></p>
+            <p><ins>Inserted Text</ins></p>
+            <p><abbr title="HyperText Markup Language">HTML</abbr></p>
+            <p><q>Blockquote</q></p>
+            <blockquote>
+                <p>This is a blockquote.</p>
+            </blockquote>
+        </section>
+
+        <section id="multimedia">
+            <h2>Multimedia Elements</h2>
+            <figure>
+                <img src="car.jpeg" alt="Placeholder Image">
+                <figcaption>Car Image</figcaption>
+            </figure>
+            <audio controls>
+                <source src="once-in-paris-168895.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <video width="600" controls>
+                <source src="bird.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section id="navigation">
+            <h2>Navigation Facility</h2>
+            <p><a href="#text-formatting">Go to Text Formatting Section</a></p>
+            <p><a href="#multimedia">Go to Multimedia Elements Section</a></p>
+        </section>
+
+        <section id="form-controls">
+            <h2>Form Controls</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <fieldset>
+                    <legend>Gender:</legend>
+                    <label for="male">
+                        <input type="radio" id="male" name="gender" value="male">
+                        Male
+                    </label>
+                    <label for="female">
+                        <input type="radio" id="female" name="gender" value="female">
+                        Female
+                    </label>
+                </fieldset>
+                
+                <label for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    Subscribe to newsletter
+                </label>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="typography">
+            <h2>Typography with Custom Font</h2>
+            <p class="custom-font">This paragraph uses a custom font: Roboto.</p>
+        </section>
+
+        <section id="tables">
+            <h2>Use of Tables</h2>
+            <table>
+                <caption>Sample Table</caption>
+                <thead>
+                    <tr>
+                        <th>Roll no</th>
+                        <th>Stdid</th>
+                        <th>Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>2023DSIT001</td>
+                        <td>Aniket Golhait</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>2023DSIT002</td>
+                        <td>Krish Patil</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;Web Application Demonstration Thank You!</p>
+    </footer>
+</body>
+</html>
